@@ -1,4 +1,4 @@
 class Persona < ActiveRecord::Base
-  validates_presence_of :nombre, :cambioapellido
+  validates_presence_of :tambiencambioporquesoygrosonombre, :ynocambioapellido
 
 end
